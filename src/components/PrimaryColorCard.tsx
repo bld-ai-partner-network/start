@@ -1,4 +1,5 @@
 import { FunctionComponent, memo } from "react";
+import ColorSwatch from "./ColorSwatch";
 
 const PrimaryColorCard: FunctionComponent = memo(() => {
   return (
@@ -11,15 +12,7 @@ const PrimaryColorCard: FunctionComponent = memo(() => {
           <div className="relative text-[0.75rem] tracking-[0.5px] leading-[266%] uppercase font-semibold text-text-secondary">
             SHADES
           </div>
-          <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
-            <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
-              <span className="[line-break:anywhere] w-full">
-                <p className="m-0">Main</p>
-                <p className="m-0 text-text-secondary">(#5C55B8)</p>
-              </span>
-            </div>
-            <div className="relative rounded bg-primary-main w-[2.88rem] h-[2.88rem]" />
-          </div>
+          <ColorSwatch />
           <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
             <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
               <span className="[line-break:anywhere] w-full">
