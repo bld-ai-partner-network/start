@@ -2,7 +2,7 @@ import { FunctionComponent, memo } from "react";
 
 const ColorContainer: FunctionComponent = memo(() => {
   return (
-    <section className="bg-primary-background box-border w-[120rem] h-[67.59rem] overflow-hidden shrink-0 flex flex-col items-start justify-start p-[6.25rem] gap-[6.25rem] text-left text-[3.5rem] text-text-primary font-body1 border-b-[3px] border-solid border-grey-grey-300">
+    <section className="bg-primary-background box-border w-[120rem] h-[67.59rem] overflow-hidden shrink-0 flex flex-col items-start justify-start p-[6.25rem] gap-[6.25rem] text-left text-[3.5rem] text-text-primary font-h1 border-b-[3px] border-solid border-grey-grey-300">
       <h1 className="m-0 relative text-inherit tracking-[-1.5px] leading-[112%] font-semibold font-inherit text-text-secondary">
         Supporting Colors
       </h1>
@@ -46,7 +46,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#1a245f)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-darkslateblue w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-interface-info-dark-text w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -55,7 +55,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#eceefd)</p>
                 </span>
               </div>
-              <button className="cursor-pointer p-0 bg-lavender-100 relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
+              <button className="cursor-pointer p-0 bg-bldai-interface-info-background relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#520a0c)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-maroon w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-interface-error-dark-text w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -107,7 +107,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#FAE8E8)</p>
                 </span>
               </div>
-              <button className="cursor-pointer p-0 bg-mistyrose relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
+              <button className="cursor-pointer p-0 bg-bldai-interface-error-background relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#664000)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-saddlebrown w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-interface-warning-dark-text w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -159,7 +159,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#fff5e5)</p>
                 </span>
               </div>
-              <button className="cursor-pointer p-0 bg-oldlace relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
+              <button className="cursor-pointer p-0 bg-bldai-interface-warning-background relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
             </div>
           </div>
         </div>
@@ -202,7 +202,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#1E4620)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-darkolivegreen w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-interface-success-dark-text w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -211,7 +211,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#EDF7ED)</p>
                 </span>
               </div>
-              <button className="cursor-pointer p-0 bg-honeydew relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
+              <button className="cursor-pointer p-0 bg-bldai-interface-success-background relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
             </div>
           </div>
         </div>
@@ -236,7 +236,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#5C6983)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-slategray w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-text-secondary w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem] text-text-primary">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -245,7 +245,7 @@ const ColorContainer: FunctionComponent = memo(() => {
                   <p className="m-0 text-text-secondary">(#9A9C9D)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-darkgray-200 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-text-disabled w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded bg-primary-main flex flex-row items-center justify-start p-[0.5rem] text-primary-contrast-text">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">

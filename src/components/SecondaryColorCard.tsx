@@ -2,7 +2,7 @@ import { FunctionComponent, memo } from "react";
 
 const SecondaryColorCard: FunctionComponent = memo(() => {
   return (
-    <div className="flex flex-col items-start justify-start gap-[6.25rem] text-left text-[3.5rem] text-text-primary font-body1">
+    <div className="flex flex-col items-start justify-start gap-[6.25rem] text-left text-[3.5rem] text-text-primary font-h1">
       <h1 className="m-0 relative text-inherit tracking-[-1.5px] leading-[112%] font-semibold font-inherit text-text-secondary">
         Secondary Color
       </h1>
@@ -52,7 +52,7 @@ const SecondaryColorCard: FunctionComponent = memo(() => {
                 <p className="m-0 text-text-secondary">(#F3F5FD)</p>
               </span>
             </div>
-            <button className="cursor-pointer p-0 bg-ghostwhite relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
+            <button className="cursor-pointer p-0 bg-bldai-secondary-background relative rounded box-border w-[2.88rem] h-[2.88rem] border-[1px] border-solid border-grey-grey-300" />
           </div>
           <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
             <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -61,7 +61,7 @@ const SecondaryColorCard: FunctionComponent = memo(() => {
                 <p className="m-0 text-text-secondary">(#D6D5F3)</p>
               </span>
             </div>
-            <div className="relative rounded bg-lavender-200 w-[2.88rem] h-[2.88rem]" />
+            <div className="relative rounded bg-bldai-secondary-border w-[2.88rem] h-[2.88rem]" />
           </div>
         </div>
         <img

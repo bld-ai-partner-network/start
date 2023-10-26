@@ -6,6 +6,13 @@ import {
   useLocation,
 } from "react-router-dom";
 import Page3Colors from "./pages/Page3Colors";
+import StartHomepage from "./pages/StartHomepage";
+import Page1Intro from "./pages/Page1Intro";
+import Page2Logo from "./pages/Page2Logo";
+import Page3Colors1 from "./pages/Page3Colors1";
+import Page4Typography from "./pages/Page4Typography";
+import Page5GraphicElements from "./pages/Page5GraphicElements";
+import Page6BrandStory from "./pages/Page6BrandStory";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +34,34 @@ function App() {
         title = "bld.ai Start Test - Color Palette";
         metaDescription = "";
         break;
+      case "/start-homepage":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/page-1-intro":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/page-2-logo":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/page-3-colors":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/page-4-typography":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/page-5-graphic-elements":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/page-6-brand-story":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -46,6 +81,16 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Page3Colors />} />
+      <Route path="/start-homepage" element={<StartHomepage />} />
+      <Route path="/page-1-intro" element={<Page1Intro />} />
+      <Route path="/page-2-logo" element={<Page2Logo />} />
+      <Route path="/page-3-colors" element={<Page3Colors1 />} />
+      <Route path="/page-4-typography" element={<Page4Typography />} />
+      <Route
+        path="/page-5-graphic-elements"
+        element={<Page5GraphicElements />}
+      />
+      <Route path="/page-6-brand-story" element={<Page6BrandStory />} />
     </Routes>
   );
 }

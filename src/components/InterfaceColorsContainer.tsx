@@ -2,7 +2,7 @@ import { FunctionComponent, memo } from "react";
 
 const InterfaceColorsContainer: FunctionComponent = memo(() => {
   return (
-    <section className="bg-primary-background box-border w-[120rem] h-[67.59rem] overflow-hidden shrink-0 flex flex-col items-start justify-start p-[6.25rem] gap-[6.25rem] text-left text-[3.5rem] text-text-primary font-body1 border-b-[3px] border-solid border-grey-grey-300">
+    <section className="bg-primary-background box-border w-[120rem] h-[67.59rem] overflow-hidden shrink-0 flex flex-col items-start justify-start p-[6.25rem] gap-[6.25rem] text-left text-[3.5rem] text-text-primary font-h1 border-b-[3px] border-solid border-grey-grey-300">
       <h1 className="m-0 relative text-inherit tracking-[-1.5px] leading-[112%] font-semibold font-inherit text-text-secondary">
         Interface Colors
       </h1>
@@ -19,7 +19,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#F5F5F5)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-whitesmoke-100 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-100 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -28,7 +28,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#EEEEEE)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-whitesmoke-400 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-200 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem] text-text-primary">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -46,7 +46,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#DBDCDF)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-gainsboro w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-350 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -55,7 +55,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#bfc1c3)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-silver-100 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-400 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -64,7 +64,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#B9BABC)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-silver-200 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-450 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -73,7 +73,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#9E9E9E)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-darkgray-100 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-500 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -82,7 +82,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#757575)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-gray w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-600 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -91,7 +91,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#616161)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-dimgray w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-700 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -100,7 +100,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#424242)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-darkslategray-100 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-800 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -109,7 +109,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#323232)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-darkslategray-200 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-850 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -131,13 +131,13 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 100
               </div>
-              <div className="relative rounded bg-whitesmoke-200 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-blue-grey-100 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 200
               </div>
-              <div className="relative rounded bg-whitesmoke-300 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-blue-grey-200 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -183,7 +183,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#FFB400)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-orange w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-interface-other-activerating w-[2.88rem] h-[2.88rem]" />
             </div>
           </div>
         </div>
