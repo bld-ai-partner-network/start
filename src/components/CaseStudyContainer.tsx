@@ -17,11 +17,11 @@ const CaseStudyContainer: FunctionComponent<CaseStudyContainerType> = memo(
     }, [propBackgroundColor]);
 
     return (
-      <div className="self-stretch relative w-[49rem] overflow-hidden shrink-0 text-left text-[2rem] text-primary-contrast-text font-h1">
+      <div className="self-stretch relative w-[49rem] overflow-hidden shrink-0 text-left text-[2rem] text-bldai-text-light-contrast font-bldai-special-overline">
         <div className="absolute top-[-1.52rem] left-[0rem] w-[49rem] h-[38.29rem] overflow-hidden flex flex-col items-center justify-start">
           <div className="relative w-[49rem] h-[21.38rem] overflow-hidden shrink-0">
             <div
-              className="absolute top-[1.48rem] left-[0rem] rounded-[21.33px] bg-text-primary w-[49rem] h-[18rem] overflow-hidden flex flex-row items-center justify-center py-[5rem] px-[2rem] box-border"
+              className="absolute top-[1.48rem] left-[0rem] rounded-[21.33px] bg-bldai-text-primary w-[49rem] h-[18rem] overflow-hidden flex flex-row items-center justify-center py-[5rem] px-[2rem] box-border"
               style={featureStyle}
             >
               <div className="w-[36.56rem] flex flex-col items-start justify-start gap-[1.33rem]">

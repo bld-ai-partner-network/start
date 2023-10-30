@@ -4,7 +4,7 @@ import NavigationBar from "./NavigationBar";
 
 const BrandIdentityGuideHeader: FunctionComponent = memo(() => {
   return (
-    <header className="bg-primary-main box-border w-[120rem] h-[12.59rem] overflow-hidden shrink-0 flex flex-row items-center justify-between p-[6.25rem] text-left text-[3.75rem] text-primary-contrast-text font-h1 border-b-[3px] border-solid border-grey-grey-300 lg:flex-row lg:gap-[0rem] lg:items-start lg:justify-start md:flex-col md:gap-[0rem] md:items-start md:justify-center sm:flex-col sm:gap-[0rem] sm:items-start sm:justify-center">
+    <header className="bg-bldai-primary-main box-border w-[120rem] h-[12.59rem] overflow-hidden shrink-0 flex flex-row items-center justify-between p-[6.25rem] text-left text-[3.75rem] text-bldai-text-light-contrast font-bldai-special-overline border-b-[3px] border-solid border-bldai-monochrome-grey-300 lg:flex-row lg:gap-[0rem] lg:items-start lg:justify-start md:flex-col md:gap-[0rem] md:items-start md:justify-center sm:flex-col sm:gap-[0rem] sm:items-start sm:justify-center">
       <div className="self-stretch flex flex-row items-center justify-start gap-[3.13rem] lg:flex-row lg:gap-[3.13rem] lg:items-center lg:justify-start">
         <img
           className="relative w-[3.13rem] h-[3.13rem]"

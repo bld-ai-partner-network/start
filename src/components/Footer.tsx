@@ -2,7 +2,7 @@ import { FunctionComponent, memo } from "react";
 
 const Footer: FunctionComponent = memo(() => {
   return (
-    <section className="self-stretch bg-bldai-primary-dark h-[6.25rem] flex flex-col items-start justify-center py-[0rem] px-[10rem] box-border text-left text-[0.75rem] text-primary-contrast-text font-h1">
+    <section className="self-stretch bg-bldai-primary-dark h-[6.25rem] flex flex-col items-start justify-center py-[0rem] px-[10rem] box-border text-left text-[0.75rem] text-bldai-text-light-contrast font-bldai-special-overline">
       <div className="self-stretch flex flex-row items-center justify-between">
         <div className="flex-1 flex flex-row items-center justify-start gap-[3.13rem]">
           <img

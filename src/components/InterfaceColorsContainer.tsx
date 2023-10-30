@@ -2,7 +2,7 @@ import { FunctionComponent, memo } from "react";
 
 const InterfaceColorsContainer: FunctionComponent = memo(() => {
   return (
-    <section className="bg-primary-background box-border w-[120rem] h-[67.59rem] overflow-hidden shrink-0 flex flex-col items-start justify-start p-[6.25rem] gap-[6.25rem] text-left text-[3.5rem] text-text-primary font-h1 border-b-[3px] border-solid border-grey-grey-300">
+    <section className="bg-bldai-primary-background box-border w-[120rem] h-[67.59rem] overflow-hidden shrink-0 flex flex-col items-start justify-start p-[6.25rem] gap-[6.25rem] text-left text-[3.5rem] text-bldai-text-primary font-bldai-special-overline border-b-[3px] border-solid border-bldai-monochrome-grey-300">
       <h1 className="m-0 relative text-inherit tracking-[-1.5px] leading-[112%] font-semibold font-inherit text-text-secondary">
         Interface Colors
       </h1>
@@ -11,7 +11,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
           <h2 className="m-0 relative text-inherit leading-[133.4%] font-semibold font-inherit">
             Grey Monochromes
           </h2>
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[0.63rem] text-[0.88rem] text-grey-grey-900">
+          <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[0.63rem] text-[0.88rem] text-bldai-text-dark-contrast">
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 <span className="[line-break:anywhere] w-full">
@@ -30,14 +30,14 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
               </div>
               <div className="relative rounded bg-bldai-monochrome-grey-200 w-[2.88rem] h-[2.88rem]" />
             </div>
-            <div className="rounded flex flex-row items-center justify-start p-[0.5rem] text-text-primary">
+            <div className="rounded flex flex-row items-center justify-start p-[0.5rem] text-bldai-text-primary">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 <span className="[line-break:anywhere] w-full">
                   <p className="m-0">grey-300 (Main)</p>
                   <p className="m-0">(#E0E0E0)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-grey-grey-300 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-grey-300 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
@@ -118,7 +118,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
                   <p className="m-0">(#212121)</p>
                 </span>
               </div>
-              <div className="relative rounded bg-grey-grey-900 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-text-dark-contrast w-[2.88rem] h-[2.88rem]" />
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
           <h2 className="m-0 relative text-inherit leading-[133.4%] font-semibold font-inherit">
             Blue Monochromes
           </h2>
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[0.63rem] text-[0.88rem] text-grey-grey-900">
+          <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[0.63rem] text-[0.88rem] text-bldai-text-dark-contrast">
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 100
@@ -143,31 +143,31 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 300
               </div>
-              <div className="relative rounded bg-bluegrey-300 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-blue-grey-300 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 400
               </div>
-              <div className="relative rounded bg-bluegrey-400 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-blue-grey-400 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 500
               </div>
-              <div className="relative rounded bg-bluegrey-500 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-blue-grey-500 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 600
               </div>
-              <div className="relative rounded bg-bluegrey-600 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-blue-grey-600 w-[2.88rem] h-[2.88rem]" />
             </div>
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 blue-grey 700
               </div>
-              <div className="relative rounded bg-bluegrey-700 w-[2.88rem] h-[2.88rem]" />
+              <div className="relative rounded bg-bldai-monochrome-blue-grey-700 w-[2.88rem] h-[2.88rem]" />
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@ const InterfaceColorsContainer: FunctionComponent = memo(() => {
           <h2 className="m-0 relative text-inherit leading-[133.4%] font-semibold font-inherit">
             Other
           </h2>
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-start text-[0.88rem] text-grey-grey-900">
+          <div className="self-stretch flex flex-row flex-wrap items-start justify-start text-[0.88rem] text-bldai-text-dark-contrast">
             <div className="rounded flex flex-row items-center justify-start p-[0.5rem]">
               <div className="relative tracking-[0.15px] leading-[143%] flex items-center w-[10rem] shrink-0">
                 <span className="[line-break:anywhere] w-full">

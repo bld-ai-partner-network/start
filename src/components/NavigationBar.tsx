@@ -276,7 +276,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
 
     return (
       <div
-        className="w-[800px] flex flex-row items-start justify-start text-center text-mini text-primary-contrast-text font-h1"
+        className="w-[800px] flex flex-row items-start justify-start text-center text-mini text-bldai-text-light-contrast font-bldai-special-overline"
         style={navigationBarStyle}
       >
         <div className="flex-1 relative h-[30px] min-h-[30px]" style={tabStyle}>

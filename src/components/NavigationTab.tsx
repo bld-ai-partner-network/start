@@ -67,7 +67,7 @@ const NavigationTab: FunctionComponent<NavigationTabType> = memo(
 
     return (
       <div
-        className="h-full min-h-[30px] text-center text-mini text-primary-contrast-text font-h1 flex-1"
+        className="h-full min-h-[30px] text-center text-mini text-bldai-text-light-contrast font-bldai-special-overline flex-1"
         style={stateActiveStyle}
       >
         <div
