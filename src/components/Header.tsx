@@ -1,14 +1,14 @@
 import { FunctionComponent, memo } from "react";
 
-const StartHeader: FunctionComponent = memo(() => {
+const Header: FunctionComponent = memo(() => {
   return (
-    <header className="self-stretch bg-bldai-primary-main overflow-hidden flex flex-row items-center justify-between py-[1.56rem] px-[10rem] text-left text-[0.94rem] text-bldai-text-light-contrast font-bldai-special-overline">
+    <header className="self-stretch bg-bldai-primary-main overflow-hidden flex flex-row items-center justify-between py-[1.56rem] px-[10rem] text-left text-[0.94rem] text-bldai-text-light-contrast font-buttonlarge">
       <img
         className="relative w-[3.13rem] h-[3.13rem]"
         alt=""
         src="/colorwhite.svg"
       />
-      <nav className="m-0 flex-1 flex flex-row items-center justify-start py-[0rem] px-[6.25rem] gap-[3.13rem] text-center text-[0.94rem] text-bldai-primary-background font-bldai-special-overline">
+      <nav className="m-0 flex-1 flex flex-row items-center justify-start py-[0rem] px-[6.25rem] gap-[3.13rem] text-center text-[0.94rem] text-bldai-primary-background font-buttonlarge">
         <a
           className="[text-decoration:none] relative leading-[150%] uppercase font-semibold text-[inherit]"
           href="https://bld.ai"
@@ -41,4 +41,4 @@ const StartHeader: FunctionComponent = memo(() => {
   );
 });
 
-export default StartHeader;
+export default Header;
