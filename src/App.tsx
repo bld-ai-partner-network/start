@@ -34,10 +34,6 @@ function App() {
         title = "bld.ai Start";
         metaDescription = "";
         break;
-      case "/page-1-intro":
-        title = "";
-        metaDescription = "";
-        break;
       case "/page-4-typography":
         title = "bld.ai Brand Identity Guide";
         metaDescription = "";
@@ -54,8 +50,12 @@ function App() {
         title = "bld.ai Brand Identity Guide";
         metaDescription = "";
         break;
-      case "/start-homepage":
-        title = "bld.ai Start";
+      case "/page-5-graphic-elements":
+        title = "bld.ai Brand Identity Guide";
+        metaDescription = "";
+        break;
+      case "/page-6-brand-story":
+        title = "bld.ai Brand Identity Guide"
         metaDescription = "";
         break;
     }
@@ -85,11 +85,6 @@ function App() {
         path="/page-5-graphic-elements"
         element={<Page5GraphicElements />}
       />
-      <Route path="/page-4-typography" element={<Page4Typography />} />
-      <Route path="/page-3-colors" element={<Page3Colors1 />} />
-      <Route path="/page-2-logo" element={<Page2Logo />} />
-      <Route path="/page-1-intro" element={<Page1Intro />} />
-      <Route path="/start-homepage" element={<StartHomepage />} />
     </Routes>
   );
 }

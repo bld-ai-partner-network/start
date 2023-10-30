@@ -300,7 +300,7 @@ const Page4Typography: FunctionComponent = () => {
             </div>
           </div>
           <div className="self-stretch flex-1 flex flex-col items-start justify-start text-[0.75rem]">
-            <TableHeaderRow showHeaderRow />
+            <TableHeaderRow/>
             <div className="self-stretch flex flex-row items-start justify-start">
               <div className="flex-1 h-[6.25rem] flex flex-col items-start justify-center">
                 <div className="self-stretch flex-1 flex flex-row items-center justify-start py-[0rem] px-[0.63rem]">
@@ -507,9 +507,6 @@ const Page4Typography: FunctionComponent = () => {
           <div className="self-stretch flex-1 flex flex-row items-start justify-start gap-[1.56rem] text-[0.75rem]">
             <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[1.56rem]">
               <TableHeaderRow
-                showHeaderRow
-                propColor="#5c6983"
-                propColor1="#5c6983"
               />
               <div className="self-stretch flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-start justify-center">
@@ -574,9 +571,6 @@ const Page4Typography: FunctionComponent = () => {
             </div>
             <div className="self-stretch flex-1 flex flex-col items-start justify-start">
               <TableHeaderRow
-                showHeaderRow={false}
-                propColor="rgba(66, 82, 110, 0.86)"
-                propColor1="rgba(66, 82, 110, 0.86)"
               />
             </div>
           </div>
