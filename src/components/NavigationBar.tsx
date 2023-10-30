@@ -121,19 +121,19 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
       };
     }, [tabHeight, tabMinHeight, tabCursor, tabTextDecoration]);
 
-    const main1Style: CSSProperties = useMemo(() => {
+    const mainStyle: CSSProperties = useMemo(() => {
       return {
         gap: mainGap,
       };
     }, [mainGap]);
 
-    const tabContent1Style: CSSProperties = useMemo(() => {
+    const tabContentStyle: CSSProperties = useMemo(() => {
       return {
         fontSize: tabContentFontSize,
       };
     }, [tabContentFontSize]);
 
-    const lineIcon1Style: CSSProperties = useMemo(() => {
+    const lineIconStyle: CSSProperties = useMemo(() => {
       return {
         height: lineIconHeight,
       };
@@ -148,19 +148,19 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
       };
     }, [tabHeight1, tabMinHeight1, tabCursor1, tabTextDecoration1]);
 
-    const main2Style: CSSProperties = useMemo(() => {
+    const main1Style: CSSProperties = useMemo(() => {
       return {
         gap: mainGap1,
       };
     }, [mainGap1]);
 
-    const tabContent2Style: CSSProperties = useMemo(() => {
+    const tabContent1Style: CSSProperties = useMemo(() => {
       return {
         fontSize: tabContentFontSize1,
       };
     }, [tabContentFontSize1]);
 
-    const lineIcon2Style: CSSProperties = useMemo(() => {
+    const lineIcon1Style: CSSProperties = useMemo(() => {
       return {
         height: lineIconHeight1,
       };
@@ -175,19 +175,19 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
       };
     }, [tabHeight2, tabMinHeight2, tabCursor2, tabTextDecoration2]);
 
-    const main3Style: CSSProperties = useMemo(() => {
+    const main2Style: CSSProperties = useMemo(() => {
       return {
         gap: mainGap2,
       };
     }, [mainGap2]);
 
-    const tabContent3Style: CSSProperties = useMemo(() => {
+    const tabContent2Style: CSSProperties = useMemo(() => {
       return {
         fontSize: tabContentFontSize2,
       };
     }, [tabContentFontSize2]);
 
-    const lineIcon3Style: CSSProperties = useMemo(() => {
+    const lineIcon2Style: CSSProperties = useMemo(() => {
       return {
         height: lineIconHeight2,
       };
@@ -202,19 +202,19 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
       };
     }, [tabHeight3, tabMinHeight3, tabCursor3, tabTextDecoration3]);
 
-    const main4Style: CSSProperties = useMemo(() => {
+    const main3Style: CSSProperties = useMemo(() => {
       return {
         gap: mainGap3,
       };
     }, [mainGap3]);
 
-    const tabContent4Style: CSSProperties = useMemo(() => {
+    const tabContent3Style: CSSProperties = useMemo(() => {
       return {
         fontSize: tabContentFontSize3,
       };
     }, [tabContentFontSize3]);
 
-    const lineIcon4Style: CSSProperties = useMemo(() => {
+    const lineIcon3Style: CSSProperties = useMemo(() => {
       return {
         height: lineIconHeight3,
       };
@@ -229,19 +229,19 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
       };
     }, [tabHeight4, tabMinHeight4, tabCursor4, tabTextDecoration4]);
 
-    const main5Style: CSSProperties = useMemo(() => {
+    const main4Style: CSSProperties = useMemo(() => {
       return {
         gap: mainGap4,
       };
     }, [mainGap4]);
 
-    const tabContent5Style: CSSProperties = useMemo(() => {
+    const tabContent4Style: CSSProperties = useMemo(() => {
       return {
         fontSize: tabContentFontSize4,
       };
     }, [tabContentFontSize4]);
 
-    const lineIcon5Style: CSSProperties = useMemo(() => {
+    const lineIcon4Style: CSSProperties = useMemo(() => {
       return {
         height: lineIconHeight4,
       };
@@ -256,19 +256,19 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
       };
     }, [tabHeight5, tabMinHeight5, tabCursor5, tabTextDecoration5]);
 
-    const main6Style: CSSProperties = useMemo(() => {
+    const main5Style: CSSProperties = useMemo(() => {
       return {
         gap: mainGap5,
       };
     }, [mainGap5]);
 
-    const tabContent6Style: CSSProperties = useMemo(() => {
+    const tabContent5Style: CSSProperties = useMemo(() => {
       return {
         fontSize: tabContentFontSize5,
       };
     }, [tabContentFontSize5]);
 
-    const lineIcon6Style: CSSProperties = useMemo(() => {
+    const lineIcon5Style: CSSProperties = useMemo(() => {
       return {
         height: lineIconHeight5,
       };
@@ -282,12 +282,12 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
         <div className="flex-1 relative h-[30px] min-h-[30px]" style={tabStyle}>
           <div
             className="absolute top-[calc(50%_-_14px)] left-[calc(50%_-_22.65px)] flex flex-col items-center justify-start gap-[5px]"
-            style={main1Style}
+            style={mainStyle}
           >
             <div className="self-stretch flex flex-col items-center justify-start">
               <div
                 className="relative leading-[150%] uppercase font-semibold"
-                style={tabContent1Style}
+                style={tabContentStyle}
               >
                 Home
               </div>
@@ -296,7 +296,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
               className="self-stretch relative max-w-full overflow-hidden h-0 shrink-0"
               alt=""
               src={line}
-              style={lineIcon1Style}
+              style={lineIconStyle}
             />
           </div>
         </div>
@@ -306,12 +306,12 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
         >
           <div
             className="absolute top-[calc(50%_-_14px)] left-[calc(50%_-_21.15px)] flex flex-col items-center justify-start gap-[5px]"
-            style={main2Style}
+            style={main1Style}
           >
             <div className="self-stretch flex flex-col items-center justify-start">
               <div
                 className="relative leading-[150%] uppercase font-semibold"
-                style={tabContent2Style}
+                style={tabContent1Style}
               >
                 Logo
               </div>
@@ -320,7 +320,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
               className="self-stretch relative max-w-full overflow-hidden h-0 shrink-0"
               alt=""
               src={line1}
-              style={lineIcon2Style}
+              style={lineIcon1Style}
             />
           </div>
         </div>
@@ -330,12 +330,12 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
         >
           <div
             className="absolute top-[calc(50%_-_14px)] left-[calc(50%_-_30.65px)] flex flex-col items-center justify-start gap-[5px]"
-            style={main3Style}
+            style={main2Style}
           >
             <div className="self-stretch flex flex-col items-center justify-start">
               <div
                 className="relative leading-[150%] uppercase font-semibold"
-                style={tabContent3Style}
+                style={tabContent2Style}
               >
                 Colors
               </div>
@@ -344,7 +344,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
               className="self-stretch relative max-w-full overflow-hidden h-0 shrink-0"
               alt=""
               src={line2}
-              style={lineIcon3Style}
+              style={lineIcon2Style}
             />
           </div>
         </div>
@@ -354,12 +354,12 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
         >
           <div
             className="absolute top-[calc(50%_-_14px)] left-[calc(50%_-_50.65px)] flex flex-col items-center justify-start gap-[5px]"
-            style={main4Style}
+            style={main3Style}
           >
             <div className="self-stretch flex flex-col items-center justify-start">
               <div
                 className="relative leading-[150%] uppercase font-semibold"
-                style={tabContent4Style}
+                style={tabContent3Style}
               >
                 Typography
               </div>
@@ -368,7 +368,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
               className="self-stretch relative max-w-full overflow-hidden h-0 shrink-0"
               alt=""
               src={line3}
-              style={lineIcon4Style}
+              style={lineIcon3Style}
             />
           </div>
         </div>
@@ -378,12 +378,12 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
         >
           <div
             className="absolute top-[calc(50%_-_14px)] left-[calc(50%_-_38.65px)] flex flex-col items-center justify-start gap-[5px]"
-            style={main5Style}
+            style={main4Style}
           >
             <div className="self-stretch flex flex-col items-center justify-start">
               <div
                 className="relative leading-[150%] uppercase font-semibold"
-                style={tabContent5Style}
+                style={tabContent4Style}
               >
                 Graphics
               </div>
@@ -392,7 +392,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
               className="self-stretch relative max-w-full overflow-hidden h-0 shrink-0"
               alt=""
               src={line4}
-              style={lineIcon5Style}
+              style={lineIcon4Style}
             />
           </div>
         </div>
@@ -402,12 +402,12 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
         >
           <div
             className="absolute top-[calc(50%_-_14px)] left-[calc(50%_-_52.65px)] flex flex-col items-center justify-start gap-[5px]"
-            style={main6Style}
+            style={main5Style}
           >
             <div className="self-stretch flex flex-col items-center justify-start">
               <div
                 className="relative leading-[150%] uppercase font-semibold"
-                style={tabContent6Style}
+                style={tabContent5Style}
               >
                 Brand story
               </div>
@@ -416,7 +416,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = memo(
               className="self-stretch relative max-w-full overflow-hidden h-0 shrink-0"
               alt=""
               src={line5}
-              style={lineIcon6Style}
+              style={lineIcon5Style}
             />
           </div>
         </div>

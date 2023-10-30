@@ -5,6 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+
 import StartHomepage from "./pages/StartHomepage";
 import Page1Intro from "./pages/Page1Intro";
 import Page2Logo from "./pages/Page2Logo";
@@ -37,24 +38,24 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/page-2-logo":
-        title = "";
+      case "/page-4-typography":
+        title = "bld.ai Brand Identity Guide";
         metaDescription = "";
         break;
       case "/page-3-colors":
-        title = "";
+        title = "bld.ai Brand Identity Guide";
         metaDescription = "";
         break;
-      case "/page-4-typography":
-        title = "";
+      case "/page-2-logo":
+        title = "bld.ai Brand Identity Guide";
         metaDescription = "";
         break;
-      case "/page-5-graphic-elements":
-        title = "";
+      case "/page-1-intro":
+        title = "bld.ai Brand Identity Guide";
         metaDescription = "";
         break;
-      case "/page-6-brand-story":
-        title = "";
+      case "/start-homepage":
+        title = "bld.ai Start";
         metaDescription = "";
         break;
     }
@@ -84,7 +85,11 @@ function App() {
         path="/page-5-graphic-elements"
         element={<Page5GraphicElements />}
       />
-      <Route path="/page-6-brand-story" element={<Page6BrandStory />} />
+      <Route path="/page-4-typography" element={<Page4Typography />} />
+      <Route path="/page-3-colors" element={<Page3Colors1 />} />
+      <Route path="/page-2-logo" element={<Page2Logo />} />
+      <Route path="/page-1-intro" element={<Page1Intro />} />
+      <Route path="/start-homepage" element={<StartHomepage />} />
     </Routes>
   );
 }

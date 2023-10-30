@@ -46,20 +46,20 @@ const NavigationTab: FunctionComponent<NavigationTabType> = memo(
       stateActiveTextDecoration,
     ]);
 
-    const mainStyle: CSSProperties = useMemo(() => {
+    const main6Style: CSSProperties = useMemo(() => {
       return {
         left: mainLeft,
         gap: mainGap,
       };
     }, [mainLeft, mainGap]);
 
-    const tabContentStyle: CSSProperties = useMemo(() => {
+    const tabContent6Style: CSSProperties = useMemo(() => {
       return {
         fontSize: tabContentFontSize,
       };
     }, [tabContentFontSize]);
 
-    const lineIconStyle: CSSProperties = useMemo(() => {
+    const lineIcon6Style: CSSProperties = useMemo(() => {
       return {
         height: lineIconHeight,
       };
@@ -72,12 +72,12 @@ const NavigationTab: FunctionComponent<NavigationTabType> = memo(
       >
         <div
           className="absolute top-[calc(50%_-_14px)] left-[calc(50%_-_52.3px)] flex flex-col items-center justify-start gap-[5px]"
-          style={mainStyle}
+          style={main6Style}
         >
           <div className="self-stretch flex flex-col items-center justify-start">
             <div
               className="relative leading-[150%] uppercase font-semibold"
-              style={tabContentStyle}
+              style={tabContent6Style}
             >
               {text}
             </div>
@@ -86,7 +86,7 @@ const NavigationTab: FunctionComponent<NavigationTabType> = memo(
             className="self-stretch relative max-w-full overflow-hidden h-0.5 shrink-0"
             alt=""
             src={tabContentImageDimensions}
-            style={lineIconStyle}
+            style={lineIcon6Style}
           />
         </div>
       </div>
